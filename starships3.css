@@ -1,0 +1,66 @@
+#starships-container {
+	/*border: 1px solid lightsalmon;*/
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	flex-grow: 4;
+	gap: 1px;
+}
+.container-item {
+	width: 12rem;
+	display: inline-block;
+	border: 1px solid saddlebrown;
+	padding: 1%;
+}
+
+.divider {
+	border-bottom: 1px solid black;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+.button-basic {
+	padding: 2%;
+	font-size: large;
+	font-family: 'Apple Braille';
+	border-radius: 5px;
+}
+
+.button-blank {
+	background-color: white;
+}
+
+.button-green {
+	background-color: green;
+}
+
+.button-yellow {
+	background-color: yellow;
+}
+
+.button-red {
+	background-color: red;
+}
+
+.button-hover {
+	background-color: lightgray;
+}
+
+.mouse-position-input {
+	height: 30px;
+	width: 30px;
+}
+
+.hide {
+	display: none;
+	/*visibility: hidden;*/
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+.card-title {
+	font-size: large;
+}

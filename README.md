@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @Tomasz-asus
+- 👋 Hi, I’m Tomasz
 
 
 <!---

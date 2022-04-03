@@ -28,12 +28,14 @@ canvas {
 	border: 1px solid rgb(237, 9, 54);
 	padding: 1%;
 	color: white;
+	border-radius: 8%;
 }
 
 .divider {
 	border-bottom: 1px solid rgb(0, 0, 0);
 	margin-top: 3%;
 	margin-bottom: 3%;
+	border-radius: 8%;
 }
 
 .button-basic {
@@ -41,10 +43,15 @@ canvas {
 	font-size: large;
 	font-family: 'Apple Braille';
 	border-radius: 5px;
+	color: white;
+	background-color: transparent;
+	border-radius: 8%;
+
 }
 
 .button-blank {
-	background-color: white;
+	background-color: transparent;
+	border-radius: 8%;
 }
 .text-box {
 	font-size: 60px;
@@ -53,6 +60,7 @@ canvas {
 	word-spacing: 12px;
 	text-transform: uppercase;
 	color: rgb(238, 238, 238);
+	border-radius: 8%;
 }
 .button-wrapper {
 	display: flex;
@@ -74,7 +82,6 @@ canvas {
 	background: black;
 	cursor: pointer;
 }
-
 .hide {
 	display: none;
 	/*visibility: hidden;*/
